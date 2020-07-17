@@ -1,0 +1,78 @@
+$theme1-bg:#2a2f45;
+$theme1-color:#c3c6c4;
+$theme1-color-comment: #969696;
+$theme1-color-atom:#845dc4;
+$theme1-color-number:#dd925f;
+$theme1-color-keyword:#b092b9;
+$theme1-color-string:#b5bc67;
+$theme1-color-meta:#89bdb5;
+$theme1-color-tag:#efc371;
+$theme1-color-def:#efc371;
+$theme1-color-error:#c66;
+$theme1-color-bracket: gray;
+$theme1-color-link:#80a1bc;
+$theme1-color-operator:#7c7c7c;
+
+
+.theme-1 {
+  background: $theme1-bg;
+
+.cm-s-tomorrow-night {
+	color: $theme1-color;
+}
+
+.cm-s-tomorrow-night span.cm-comment {
+	color: $theme1-color-comment;
+}
+
+.cm-s-tomorrow-night span.cm-atom {
+	color: $theme1-color-atom
+}
+
+.cm-s-tomorrow-night span.cm-number,
+.cm-s-tomorrow-night span.cm-attribute {
+	color: $theme1-color-number
+}
+
+.cm-s-tomorrow-night span.cm-keyword {
+	color: $theme1-color-keyword;
+}
+
+.cm-s-tomorrow-night span.cm-string {
+	color: $theme1-color-string;
+}
+
+.cm-s-tomorrow-night span.cm-meta {
+	color: $theme1-color-meta;
+}
+
+.cm-s-tomorrow-night span.cm-variable-2,
+.cm-s-tomorrow-night span.cm-tag {
+	color: $theme1-color-tag;
+}
+
+.cm-s-tomorrow-night span.cm-variable-3,
+.cm-s-tomorrow-night span.cm-def {
+	color: $theme1-color-def;
+}
+
+.cm-s-tomorrow-night span.cm-error {
+	color: $theme1-color-error;
+}
+
+.cm-s-tomorrow-night span.cm-bracket {
+	color: $theme1-color-bracket;
+}
+
+.cm-s-tomorrow-night span.cm-builtin,
+.cm-s-tomorrow-night span.cm-special,
+.cm-s-tomorrow-night span.cm-link {
+	color: $theme1-color-link;
+}
+
+.cm-s-tomorrow-night span.cm-operator {
+	color: $theme1-color-operator;
+}
+
+
+}

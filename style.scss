@@ -1,0 +1,19 @@
+@import 'theme-1';
+@import 'theme-2';
+
+body {
+  font-size: 14px;
+  font-family: "Roboto Mono";
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 600px);
+}
+
+.grid-item {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
