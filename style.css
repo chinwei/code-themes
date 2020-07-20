@@ -82,6 +82,34 @@
   .theme-3 .cm-s-tomorrow-night span.cm-operator {
     color: #7c7c7c; }
 
+.theme-4 {
+  background: #2C2A2D; }
+  .theme-4 .cm-s-tomorrow-night {
+    color: #c3c6c4; }
+  .theme-4 .cm-s-tomorrow-night span.cm-comment {
+    color: #969696; }
+  .theme-4 .cm-s-tomorrow-night span.cm-atom {
+    color: #A8A0EC; }
+  .theme-4 .cm-s-tomorrow-night span.cm-number,
+  .theme-4 .cm-s-tomorrow-night span.cm-attribute {
+    color: #EE9B70; }
+  .theme-4 .cm-s-tomorrow-night span.cm-keyword {
+    color: #ED6C88; }
+  .theme-4 .cm-s-tomorrow-night span.cm-string {
+    color: #B4D982; }
+  .theme-4 .cm-s-tomorrow-night span.cm-meta {
+    color: #90DAE6; }
+  .theme-4 .cm-s-tomorrow-night span.cm-tag {
+    color: #A8A0EC; }
+  .theme-4 .cm-s-tomorrow-night span.cm-def {
+    color: #90DAE6; }
+  .theme-4 .cm-s-tomorrow-night span.cm-bracket {
+    color: #808080; }
+  .theme-4 .cm-s-tomorrow-night span.cm-builtin {
+    color: #ED6C88; }
+  .theme-4 .cm-s-tomorrow-night span.cm-operator {
+    color: #7c7c7c; }
+
 body, html {
   font-family: "Roboto Mono";
   color: white; }
