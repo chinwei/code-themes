@@ -26,7 +26,17 @@
 
 
 <script id="entry-template" type="text/x-handlebars-template">
+
 <pre class="tomorrow-night hub-lang hub-lang-node"><span class="cm-s-tomorrow-night"><span class="cm-keyword">var</span> <span class="cm-def">request</span> <span class="cm-operator">=</span> <span class="cm-variable">require</span>(<span class="cm-string">"request"</span>);
+
+CURL
+
+<span class="cm-s-tomorrow-night"><span class="cm-builtin">curl</span> <span class="cm-attribute">--request</span> GET \
+  <span class="cm-attribute">--url</span> https://api.addepar.com/v1/api_version \
+  <span class="cm-attribute">--header</span> <span class="cm-string">'accept: application/vnd.api+json'</span></span>
+
+
+NODE
 
 <span class="cm-keyword">var</span> <span class="cm-def">options</span> <span class="cm-operator">=</span> {
   <span class="cm-property">method</span>: <span class="cm-string">'GET'</span>,
@@ -41,66 +51,80 @@
 });
 </span>
 
-------
 
-<span class="cm-s-tomorrow-night"><span class="cm-builtin">curl</span> <span class="cm-attribute">--request</span> GET \
-  <span class="cm-attribute">--url</span> https://api.addepar.com/v1/api_version \
-  <span class="cm-attribute">--header</span> <span class="cm-string">'accept: application/vnd.api+json'</span></span>
-
-------
+RUBY
 
 <span class="cm-s-tomorrow-night"><span class="cm-keyword">require</span> <span class="cm-string">'uri'</span>
-  <span class="cm-keyword">require</span> <span class="cm-string">'net/http'</span>
-  <span class="cm-keyword">require</span> <span class="cm-string">'openssl'</span>
+<span class="cm-keyword">require</span> <span class="cm-string">'net/http'</span>
+<span class="cm-keyword">require</span> <span class="cm-string">'openssl'</span>
 
-  <span class="cm-variable">url</span> <span class="cm-operator">=</span> <span class="cm-tag">URI</span>(<span
-    class="cm-string">"https://api.addepar.com/v1/api_version"</span>)
+<span class="cm-variable">url</span> <span class="cm-operator">=</span> <span class="cm-tag">URI</span>(<span
+  class="cm-string">"https://api.addepar.com/v1/api_version"</span>)
 
-  <span class="cm-variable">http</span> <span class="cm-operator">=</span> <span class="cm-atom">Net::HTTP</span><span
-    class="cm-operator">.</span><span class="cm-property">new</span>(<span class="cm-variable">url</span><span
-    class="cm-operator">.</span><span class="cm-property">host</span>, <span class="cm-variable">url</span><span
-    class="cm-operator">.</span><span class="cm-property">port</span>)
-  <span class="cm-variable">http</span><span class="cm-operator">.</span><span class="cm-property">use_ssl</span> <span
-    class="cm-operator">=</span> <span class="cm-keyword">true</span>
-  <span class="cm-variable">http</span><span class="cm-operator">.</span><span class="cm-property">verify_mode</span>
-  <span class="cm-operator">=</span> <span class="cm-atom">OpenSSL::SSL::</span><span class="cm-tag">VERIFY_NONE</span>
+<span class="cm-variable">http</span> <span class="cm-operator">=</span> <span class="cm-atom">Net::HTTP</span><span
+  class="cm-operator">.</span><span class="cm-property">new</span>(<span class="cm-variable">url</span><span
+  class="cm-operator">.</span><span class="cm-property">host</span>, <span class="cm-variable">url</span><span
+  class="cm-operator">.</span><span class="cm-property">port</span>)
+<span class="cm-variable">http</span><span class="cm-operator">.</span><span class="cm-property">use_ssl</span> <span
+  class="cm-operator">=</span> <span class="cm-keyword">true</span>
+<span class="cm-variable">http</span><span class="cm-operator">.</span><span class="cm-property">verify_mode</span>
+<span class="cm-operator">=</span> <span class="cm-atom">OpenSSL::SSL::</span><span class="cm-tag">VERIFY_NONE</span>
 
-  <span class="cm-variable">request</span> <span class="cm-operator">=</span> <span
-    class="cm-atom">Net::HTTP::</span><span class="cm-tag">Get</span><span class="cm-operator">.</span><span
-    class="cm-property">new</span>(<span class="cm-variable">url</span>)
-  <span class="cm-variable">request</span>[<span class="cm-string">"accept"</span>] <span class="cm-operator">=</span>
-  <span class="cm-string">'application/vnd.api+json'</span>
+<span class="cm-variable">request</span> <span class="cm-operator">=</span> <span
+  class="cm-atom">Net::HTTP::</span><span class="cm-tag">Get</span><span class="cm-operator">.</span><span
+  class="cm-property">new</span>(<span class="cm-variable">url</span>)
+<span class="cm-variable">request</span>[<span class="cm-string">"accept"</span>] <span class="cm-operator">=</span>
+<span class="cm-string">'application/vnd.api+json'</span>
 
-  <span class="cm-variable">response</span> <span class="cm-operator">=</span> <span
-    class="cm-variable">http</span><span class="cm-operator">.</span><span class="cm-property">request</span>(<span
-    class="cm-variable">request</span>)
-  <span class="cm-variable">puts</span> <span class="cm-variable">response</span><span class="cm-operator">.</span><span
-    class="cm-property">read_body</span></span>
+<span class="cm-variable">response</span> <span class="cm-operator">=</span> <span
+  class="cm-variable">http</span><span class="cm-operator">.</span><span class="cm-property">request</span>(<span
+  class="cm-variable">request</span>)
+<span class="cm-variable">puts</span> <span class="cm-variable">response</span><span class="cm-operator">.</span><span
+  class="cm-property">read_body</span></span>
 
-------
+
+JAVASCRIPT
 
 <span class="cm-s-tomorrow-night"><span class="cm-keyword">var</span> <span class="cm-def">data</span> <span
-    class="cm-operator">=</span> <span class="cm-atom">null</span>;
+class="cm-operator">=</span> <span class="cm-atom">null</span>;
 
-  <span class="cm-keyword">var</span> <span class="cm-def">xhr</span> <span class="cm-operator">=</span> <span
-    class="cm-keyword">new</span> <span class="cm-variable">XMLHttpRequest</span>();
+<span class="cm-keyword">var</span> <span class="cm-def">xhr</span> <span class="cm-operator">=</span> <span
+class="cm-keyword">new</span> <span class="cm-variable">XMLHttpRequest</span>();
 
-  <span class="cm-variable">xhr</span>.<span class="cm-property">addEventListener</span>(<span
-    class="cm-string">"readystatechange"</span>, <span class="cm-keyword">function</span> () {
-  <span class="cm-keyword">if</span> (<span class="cm-keyword">this</span>.<span class="cm-property">readyState</span>
-  <span class="cm-operator">===</span> <span class="cm-keyword">this</span>.<span class="cm-property">DONE</span>) {
-  <span class="cm-variable">console</span>.<span class="cm-property">log</span>(<span
-    class="cm-keyword">this</span>.<span class="cm-property">responseText</span>);
-  }
-  });
+<span class="cm-variable">xhr</span>.<span class="cm-property">addEventListener</span>(<span
+class="cm-string">"readystatechange"</span>, <span class="cm-keyword">function</span> () {
+<span class="cm-keyword">if</span> (<span class="cm-keyword">this</span>.<span class="cm-property">readyState</span>
+<span class="cm-operator">===</span> <span class="cm-keyword">this</span>.<span class="cm-property">DONE</span>) {
+<span class="cm-variable">console</span>.<span class="cm-property">log</span>(<span
+class="cm-keyword">this</span>.<span class="cm-property">responseText</span>);
+}
+});
 
-  <span class="cm-variable">xhr</span>.<span class="cm-property">open</span>(<span class="cm-string">"GET"</span>, <span
-    class="cm-string">"https://api.addepar.com/v1/api_version"</span>);
-  <span class="cm-variable">xhr</span>.<span class="cm-property">setRequestHeader</span>(<span
-    class="cm-string">"accept"</span>, <span class="cm-string">"application/vnd.api+json"</span>);
+<span class="cm-variable">xhr</span>.<span class="cm-property">open</span>(<span class="cm-string">"GET"</span>, <span
+class="cm-string">"https://api.addepar.com/v1/api_version"</span>);
+<span class="cm-variable">xhr</span>.<span class="cm-property">setRequestHeader</span>(<span
+class="cm-string">"accept"</span>, <span class="cm-string">"application/vnd.api+json"</span>);
 
-  <span class="cm-variable">xhr</span>.<span class="cm-property">send</span>(<span
-    class="cm-variable">data</span>);</span>
+<span class="cm-variable">xhr</span>.<span class="cm-property">send</span>(<span
+class="cm-variable">data</span>);</span>
+
+
+PYTHON
+
+<span class="cm-s-tomorrow-night"><span class="cm-keyword">import</span> <span class="cm-variable">requests</span>
+
+<span class="cm-variable">url</span> <span class="cm-operator">=</span> <span
+  class="cm-string">"https://api.addepar.com/v1/api_version"</span>
+
+<span class="cm-variable">headers</span> <span class="cm-operator">=</span> {<span class="cm-string">'accept'</span>:<span class="cm-string">'application/vnd.api+json'</span>}
+
+<span class="cm-variable">response</span> <span class="cm-operator">=</span> <span
+  class="cm-variable">requests</span>.<span class="cm-property">request</span>(<span class="cm-string">"GET"</span>,
+<span class="cm-variable">url</span>, <span class="cm-variable">headers</span><span class="cm-operator">=</span><span
+  class="cm-variable">headers</span>)
+
+<span class="cm-builtin">print</span>(<span class="cm-variable">response</span>.<span
+  class="cm-property">text</span>)</span>
 
 </pre>
 
