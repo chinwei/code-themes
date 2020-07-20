@@ -48,6 +48,10 @@ $theme2-builtin:#80a1bc;
 	color: $theme2-meta;
 }
 
+.cm-s-tomorrow-night span.cm-variable {
+	color: $theme2-var;
+}
+
 .cm-s-tomorrow-night span.cm-tag {
 	color: $theme2-tag;
 }

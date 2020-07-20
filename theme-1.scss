@@ -54,6 +54,10 @@ $theme1-builtin:#80a1bc;
 	color: $theme1-def;
 }
 
+.cm-s-tomorrow-night span.cm-variable {
+	color: $theme1-var;
+}
+
 .cm-s-tomorrow-night span.cm-bracket {
 	color: $theme1-bracket;
 }
