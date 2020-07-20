@@ -4,7 +4,7 @@ $theme3-property :#c3c6c4;
 $theme3-comment: #969696;
 $theme3-bracket: #808080;
 $theme3-operator:#7c7c7c;
-$theme3-atom:#BD82A1;
+$theme3-atom:#DD836E;
 $theme3-number:#FFBE5C;
 $theme3-attr:#FFBE5C;
 $theme3-keyword:#DD836E;
@@ -12,7 +12,7 @@ $theme3-string:#B5BC67;
 $theme3-meta:#7993D9;
 $theme3-tag:#BD82A1;
 $theme3-def:#BD82A1;
-$theme3-var:#BD82A1;
+$theme3-var:#FFBE5C;
 $theme3-builtin:#80a1bc;
 
 
@@ -57,7 +57,7 @@ $theme3-builtin:#80a1bc;
 }
 
 .cm-s-tomorrow-night span.cm-variable {
-	color: $theme3-var;
+	color: $theme3-def;
 }
 
 .cm-s-tomorrow-night span.cm-bracket {
