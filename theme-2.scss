@@ -1,93 +1,71 @@
-
-
 $theme2-bg:#0D1016;
-$theme2-color:#c3c6c4;
-$theme2-color-comment: #969696;
-$theme2-color-atom:#C296E9;
-$theme2-color-number:#dd925f;
-$theme2-color-keyword:#FF9240;
-$theme2-color-string:#52C4FF;
-$theme2-color-meta:#7993D9;
-$theme2-color-tag:#efc371;
-$theme2-color-def:#FED27C;
-$theme2-color-error:#D75A6D;
-$theme2-color-bracket: gray;
-$theme2-color-link:#80a1bc;
-$theme2-color-operator:#7c7c7c;
+$theme2-primary :#c3c6c4;
+$theme2-property :#c3c6c4;
+$theme2-comment: #969696;
+$theme2-bracket: #808080;
+$theme2-operator:#7c7c7c;
+$theme2-atom:#C296E9;
+$theme2-number:#FFBE5C;
+$theme2-attr:#FFBE5C;
+$theme2-keyword:#DD836E;
+$theme2-string:#52C4FF;
+$theme2-meta:#7993D9;
+$theme2-tag:#FED27C;
+$theme2-def:#FED27C;
+$theme2-var:#FED27C;
+$theme2-builtin:#80a1bc;
 
-
-body {
-  background: #E3F0F2;
-background: #C296E9;
-background: #BDC4D1;
-background: #7993D9;
-background: #A1B77F;
-background: #D75A6D;
-background: #9BDCFC;
-background: #FED27C;
-
-
-background: white;
-}
 
 .theme-2 {
   background: $theme2-bg;
 
 .cm-s-tomorrow-night {
-	color: $theme2-color;
+	color: $theme2-primary;
 }
 
 .cm-s-tomorrow-night span.cm-comment {
-	color: $theme2-color-comment;
+	color: $theme2-comment;
 }
 
 .cm-s-tomorrow-night span.cm-atom {
-	color: $theme2-color-atom
+	color: $theme2-atom
 }
 
 .cm-s-tomorrow-night span.cm-number,
 .cm-s-tomorrow-night span.cm-attribute {
-	color: $theme2-color-number
+	color: $theme2-number
 }
 
 .cm-s-tomorrow-night span.cm-keyword {
-	color: $theme2-color-keyword;
+	color: $theme2-keyword;
 }
 
 .cm-s-tomorrow-night span.cm-string {
-	color: $theme2-color-string;
+	color: $theme2-string;
 }
 
 .cm-s-tomorrow-night span.cm-meta {
-	color: $theme2-color-meta;
+	color: $theme2-meta;
 }
 
-.cm-s-tomorrow-night span.cm-variable-2,
 .cm-s-tomorrow-night span.cm-tag {
-	color: $theme2-color-tag;
+	color: $theme2-tag;
 }
 
-.cm-s-tomorrow-night span.cm-variable-3,
 .cm-s-tomorrow-night span.cm-def {
-	color: $theme2-color-def;
-}
-
-.cm-s-tomorrow-night span.cm-error {
-	color: $theme2-color-error;
+	color: $theme2-def;
 }
 
 .cm-s-tomorrow-night span.cm-bracket {
-	color: $theme2-color-bracket;
+	color: $theme2-bracket;
 }
 
-.cm-s-tomorrow-night span.cm-builtin,
-.cm-s-tomorrow-night span.cm-special,
-.cm-s-tomorrow-night span.cm-link {
-	color: $theme2-color-link;
+.cm-s-tomorrow-night span.cm-builtin,{
+	color: $theme2-builtin;
 }
 
 .cm-s-tomorrow-night span.cm-operator {
-	color: $theme2-color-operator;
+	color: $theme2-operator;
 }
 
 

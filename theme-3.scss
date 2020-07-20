@@ -1,0 +1,72 @@
+$theme3-bg:#082321;
+$theme3-primary :#c3c6c4;
+$theme3-property :#c3c6c4;
+$theme3-comment: #969696;
+$theme3-bracket: #808080;
+$theme3-operator:#7c7c7c;
+$theme3-atom:#BD82A1;
+$theme3-number:#FFBE5C;
+$theme3-attr:#FFBE5C;
+$theme3-keyword:#DD836E;
+$theme3-string:#B5BC67;
+$theme3-meta:#7993D9;
+$theme3-tag:#BD82A1;
+$theme3-def:#BD82A1;
+$theme3-var:#BD82A1;
+$theme3-builtin:#80a1bc;
+
+
+.theme-3 {
+  background: $theme3-bg;
+
+.cm-s-tomorrow-night {
+	color: $theme3-primary;
+}
+
+.cm-s-tomorrow-night span.cm-comment {
+	color: $theme3-comment;
+}
+
+.cm-s-tomorrow-night span.cm-atom {
+	color: $theme3-atom
+}
+
+.cm-s-tomorrow-night span.cm-number,
+.cm-s-tomorrow-night span.cm-attribute {
+	color: $theme3-number
+}
+
+.cm-s-tomorrow-night span.cm-keyword {
+	color: $theme3-keyword;
+}
+
+.cm-s-tomorrow-night span.cm-string {
+	color: $theme3-string;
+}
+
+.cm-s-tomorrow-night span.cm-meta {
+	color: $theme3-meta;
+}
+
+.cm-s-tomorrow-night span.cm-tag {
+	color: $theme3-tag;
+}
+
+.cm-s-tomorrow-night span.cm-def {
+	color: $theme3-def;
+}
+
+.cm-s-tomorrow-night span.cm-bracket {
+	color: $theme3-bracket;
+}
+
+.cm-s-tomorrow-night span.cm-builtin{
+	color: $theme3-builtin;
+}
+
+.cm-s-tomorrow-night span.cm-operator {
+	color: $theme3-operator;
+}
+
+
+}

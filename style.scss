@@ -1,15 +1,15 @@
 @import 'theme-1';
 @import 'theme-2';
+@import 'theme-3';
 
-body {
-  font-size: 14px;
+body, html {
   font-family: "Roboto Mono";
   color: white;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 600px);
+  grid-template-columns: repeat(3, auto);
 }
 
 .grid-item {
@@ -17,3 +17,4 @@ body {
   margin: 20px;
   border-radius: 8px;
 }
+
