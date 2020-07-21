@@ -148,6 +148,36 @@
   .theme-5 .cm-s-tomorrow-night span.cm-operator {
     color: #7c7c7c; }
 
+.theme-6 {
+  background: #041717; }
+  .theme-6 .cm-s-tomorrow-night {
+    color: #c3c6c4; }
+  .theme-6 .cm-s-tomorrow-night span.cm-comment {
+    color: #969696; }
+  .theme-6 .cm-s-tomorrow-night span.cm-atom {
+    color: #C296E9; }
+  .theme-6 .cm-s-tomorrow-night span.cm-number,
+  .theme-6 .cm-s-tomorrow-night span.cm-attribute {
+    color: #FFBE5C; }
+  .theme-6 .cm-s-tomorrow-night span.cm-keyword {
+    color: #DD836E; }
+  .theme-6 .cm-s-tomorrow-night span.cm-string {
+    color: #52C4FF; }
+  .theme-6 .cm-s-tomorrow-night span.cm-meta {
+    color: #7993D9; }
+  .theme-6 .cm-s-tomorrow-night span.cm-variable {
+    color: #FFBE5C; }
+  .theme-6 .cm-s-tomorrow-night span.cm-tag {
+    color: #FFBE5C; }
+  .theme-6 .cm-s-tomorrow-night span.cm-def {
+    color: #FFBE5C; }
+  .theme-6 .cm-s-tomorrow-night span.cm-bracket {
+    color: #808080; }
+  .theme-6 .cm-s-tomorrow-night span.cm-builtin {
+    color: #80a1bc; }
+  .theme-6 .cm-s-tomorrow-night span.cm-operator {
+    color: #7c7c7c; }
+
 body, html {
   font-family: "Roboto Mono";
   color: white; }
