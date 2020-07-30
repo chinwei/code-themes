@@ -11,12 +11,8 @@
   </head>
   <body class="grid">
 
-<div class="grid-item theme-1">1</div>
-<div class="grid-item theme-2">2</div>
-<div class="grid-item theme-3">3</div>
-<div class="grid-item theme-4">4</div>
-<div class="grid-item theme-5">5</div>
-<div class="grid-item theme-6">6</div>
+
+<div class="grid-item theme-6"></div>
 
 
 
@@ -128,6 +124,75 @@ PYTHON
 <span class="cm-builtin">print</span>(<span class="cm-variable">response</span>.<span
   class="cm-property">text</span>)</span>
 
+
+REQUEST
+
+<pre><code class="rdmd-code lang-curl" data-lang="curl" name="Request"><span class="cm-s-neo">POST https://examplefirm.addepar.com/api/v1/positions
+
+{
+    <span class="cm-string">"data"</span>: {
+            <span class="cm-string">"type"</span>: <span class="cm-string">"positions"</span>,
+            <span class="cm-string">"attributes"</span>: {
+                <span class="cm-string">"incepting_open_position_date"</span>: <span class="cm-string">"2001-01-01"</span>,
+                <span class="cm-string">"incepting_open_position_ownership_percentage"</span>: <span class="cm-number">1</span>.0
+            },
+            <span class="cm-string">"relationships"</span>: {
+                <span class="cm-string">"owner"</span>: {
+                    <span class="cm-string">"data"</span>: {
+                        <span class="cm-string">"type"</span>: <span class="cm-string">"entities"</span>,
+                        <span class="cm-string">"id"</span>: <span class="cm-string">"22"</span>
+                    }
+                },
+                <span class="cm-string">"owned"</span>: {
+                    <span class="cm-string">"data"</span>: {
+                        <span class="cm-string">"type"</span>: <span class="cm-string">"entities"</span>,
+                        <span class="cm-string">"id"</span>: <span class="cm-string">"23"</span>
+                    }
+                }
+            }
+        }
+}
+</span></code></pre>
+
+RESPONSE
+
+<pre class="CodeTabs_active"><code class="rdmd-code lang-json" data-lang="json" name="Response"><span class="cm-s-neo"><span class="cm-variable">HTTP</span><span class="cm-operator">/</span><span class="cm-number">1.1</span> <span class="cm-number">201</span>
+
+{
+    <span class="cm-property">"data"</span>: {
+        <span class="cm-property">"id"</span>: <span class="cm-string">"338"</span>,
+        <span class="cm-property">"type"</span>: <span class="cm-string">"positions"</span>,
+        <span class="cm-property">"relationships"</span>: {
+            <span class="cm-property">"owner"</span>: {
+                <span class="cm-property">"links"</span>: {
+                    <span class="cm-property">"self"</span>: <span class="cm-string">"/v1/positions/338/relationships/owner"</span>,
+                    <span class="cm-property">"related"</span>: <span class="cm-string">"/v1/positions/338/owner"</span>
+                },
+                <span class="cm-property">"data"</span>: {
+                    <span class="cm-property">"type"</span>: <span class="cm-string">"entities"</span>,
+                    <span class="cm-property">"id"</span>: <span class="cm-string">"27"</span>
+                }
+            },
+            <span class="cm-property">"owned"</span>: {
+                <span class="cm-property">"links"</span>: {
+                    <span class="cm-property">"self"</span>: <span class="cm-string">"/v1/positions/338/relationships/owned"</span>,
+                    <span class="cm-property">"related"</span>: <span class="cm-string">"/v1/positions/338/owned"</span>
+                },
+                <span class="cm-property">"data"</span>: {
+                    <span class="cm-property">"type"</span>: <span class="cm-string">"entities"</span>,
+                    <span class="cm-property">"id"</span>: <span class="cm-string">"29"</span>
+                }
+            }
+        },
+        <span class="cm-property">"links"</span>: {
+            <span class="cm-property">"self"</span>: <span class="cm-string">"/v1/positions/338"</span>
+        }
+    },
+    <span class="cm-property">"included"</span>: []
+}
+</span></code></pre>
+
+  
 </pre>
 
     

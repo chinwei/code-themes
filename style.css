@@ -1,181 +1,181 @@
 .theme-1 {
   background: #2a2f45; }
-  .theme-1 .cm-s-tomorrow-night {
+  .theme-1 .cm-s-tomorrow-night, .theme-1 .rdmd-code {
     color: #c3c6c4; }
-  .theme-1 .cm-s-tomorrow-night span.cm-comment {
+  .theme-1 span.cm-comment {
     color: #969696; }
-  .theme-1 .cm-s-tomorrow-night span.cm-atom {
+  .theme-1 span.cm-atom {
     color: #845dc4; }
-  .theme-1 .cm-s-tomorrow-night span.cm-number,
-  .theme-1 .cm-s-tomorrow-night span.cm-attribute {
+  .theme-1 span.cm-number,
+  .theme-1 span.cm-attribute {
     color: #dd925f; }
-  .theme-1 .cm-s-tomorrow-night span.cm-keyword {
+  .theme-1 span.cm-keyword {
     color: #b092b9; }
-  .theme-1 .cm-s-tomorrow-night span.cm-string {
+  .theme-1 span.cm-string {
     color: #b5bc67; }
-  .theme-1 .cm-s-tomorrow-night span.cm-meta {
+  .theme-1 span.cm-meta {
     color: #89bdb5; }
-  .theme-1 .cm-s-tomorrow-night span.cm-tag {
+  .theme-1 span.cm-tag {
     color: #efc371; }
-  .theme-1 .cm-s-tomorrow-night span.cm-def {
+  .theme-1 span.cm-def {
     color: #efc371; }
-  .theme-1 .cm-s-tomorrow-night span.cm-variable {
+  .theme-1 span.cm-variable {
     color: #efc371; }
-  .theme-1 .cm-s-tomorrow-night span.cm-bracket {
+  .theme-1 span.cm-bracket {
     color: #808080; }
-  .theme-1 .cm-s-tomorrow-night span.cm-builtin {
+  .theme-1 span.cm-builtin {
     color: #80a1bc; }
-  .theme-1 .cm-s-tomorrow-night span.cm-operator {
+  .theme-1 span.cm-operator {
     color: #7c7c7c; }
 
 .theme-2 {
   background: #0D1016; }
-  .theme-2 .cm-s-tomorrow-night {
+  .theme-2 .cm-s-tomorrow-night, .theme-2 .rdmd-code {
     color: #c3c6c4; }
-  .theme-2 .cm-s-tomorrow-night span.cm-comment {
+  .theme-2 span.cm-comment {
     color: #969696; }
-  .theme-2 .cm-s-tomorrow-night span.cm-atom {
+  .theme-2 span.cm-atom {
     color: #C296E9; }
-  .theme-2 .cm-s-tomorrow-night span.cm-number,
-  .theme-2 .cm-s-tomorrow-night span.cm-attribute {
+  .theme-2 span.cm-number,
+  .theme-2 span.cm-attribute {
     color: #FFBE5C; }
-  .theme-2 .cm-s-tomorrow-night span.cm-keyword {
+  .theme-2 span.cm-keyword {
     color: #DD836E; }
-  .theme-2 .cm-s-tomorrow-night span.cm-string {
+  .theme-2 span.cm-string {
     color: #52C4FF; }
-  .theme-2 .cm-s-tomorrow-night span.cm-meta {
+  .theme-2 span.cm-meta {
     color: #7993D9; }
-  .theme-2 .cm-s-tomorrow-night span.cm-variable {
+  .theme-2 span.cm-variable {
     color: #FED27C; }
-  .theme-2 .cm-s-tomorrow-night span.cm-tag {
+  .theme-2 span.cm-tag {
     color: #FED27C; }
-  .theme-2 .cm-s-tomorrow-night span.cm-def {
+  .theme-2 span.cm-def {
     color: #FED27C; }
-  .theme-2 .cm-s-tomorrow-night span.cm-bracket {
+  .theme-2 span.cm-bracket {
     color: #808080; }
-  .theme-2 .cm-s-tomorrow-night span.cm-builtin {
+  .theme-2 span.cm-builtin {
     color: #80a1bc; }
-  .theme-2 .cm-s-tomorrow-night span.cm-operator {
+  .theme-2 span.cm-operator {
     color: #7c7c7c; }
 
 .theme-3 {
   background: #082321; }
-  .theme-3 .cm-s-tomorrow-night {
+  .theme-3 .cm-s-tomorrow-night, .theme-3 .rdmd-code {
     color: #c3c6c4; }
-  .theme-3 .cm-s-tomorrow-night span.cm-comment {
+  .theme-3 span.cm-comment {
     color: #969696; }
-  .theme-3 .cm-s-tomorrow-night span.cm-atom {
+  .theme-3 span.cm-atom {
     color: #DD836E; }
-  .theme-3 .cm-s-tomorrow-night span.cm-number,
-  .theme-3 .cm-s-tomorrow-night span.cm-attribute {
+  .theme-3 span.cm-number,
+  .theme-3 span.cm-attribute {
     color: #FFBE5C; }
-  .theme-3 .cm-s-tomorrow-night span.cm-keyword {
+  .theme-3 span.cm-keyword {
     color: #DD836E; }
-  .theme-3 .cm-s-tomorrow-night span.cm-string {
+  .theme-3 span.cm-string {
     color: #B5BC67; }
-  .theme-3 .cm-s-tomorrow-night span.cm-meta {
+  .theme-3 span.cm-meta {
     color: #7993D9; }
-  .theme-3 .cm-s-tomorrow-night span.cm-tag {
+  .theme-3 span.cm-tag {
     color: #BD82A1; }
-  .theme-3 .cm-s-tomorrow-night span.cm-def {
+  .theme-3 span.cm-def {
     color: #BD82A1; }
-  .theme-3 .cm-s-tomorrow-night span.cm-variable {
+  .theme-3 span.cm-variable {
     color: #BD82A1; }
-  .theme-3 .cm-s-tomorrow-night span.cm-bracket {
+  .theme-3 span.cm-bracket {
     color: #808080; }
-  .theme-3 .cm-s-tomorrow-night span.cm-builtin {
+  .theme-3 span.cm-builtin {
     color: #80a1bc; }
-  .theme-3 .cm-s-tomorrow-night span.cm-operator {
+  .theme-3 span.cm-operator {
     color: #7c7c7c; }
 
 .theme-4 {
   background: #2C2A2D; }
-  .theme-4 .cm-s-tomorrow-night {
+  .theme-4 .cm-s-tomorrow-night, .theme-4 .rdmd-code {
     color: #c3c6c4; }
-  .theme-4 .cm-s-tomorrow-night span.cm-comment {
+  .theme-4 span.cm-comment {
     color: #969696; }
-  .theme-4 .cm-s-tomorrow-night span.cm-atom {
+  .theme-4 span.cm-atom {
     color: #A8A0EC; }
-  .theme-4 .cm-s-tomorrow-night span.cm-number,
-  .theme-4 .cm-s-tomorrow-night span.cm-attribute {
+  .theme-4 span.cm-number,
+  .theme-4 span.cm-attribute {
     color: #EE9B70; }
-  .theme-4 .cm-s-tomorrow-night span.cm-keyword {
+  .theme-4 span.cm-keyword {
     color: #ED6C88; }
-  .theme-4 .cm-s-tomorrow-night span.cm-string {
+  .theme-4 span.cm-string {
     color: #B4D982; }
-  .theme-4 .cm-s-tomorrow-night span.cm-meta {
+  .theme-4 span.cm-meta {
     color: #90DAE6; }
-  .theme-4 .cm-s-tomorrow-night span.cm-tag {
+  .theme-4 span.cm-tag {
     color: #A8A0EC; }
-  .theme-4 .cm-s-tomorrow-night span.cm-def {
+  .theme-4 span.cm-def {
     color: #90DAE6; }
-  .theme-4 .cm-s-tomorrow-night span.cm-variable {
+  .theme-4 span.cm-variable {
     color: #F9D778; }
-  .theme-4 .cm-s-tomorrow-night span.cm-bracket {
+  .theme-4 span.cm-bracket {
     color: #808080; }
-  .theme-4 .cm-s-tomorrow-night span.cm-builtin {
+  .theme-4 span.cm-builtin {
     color: #ED6C88; }
-  .theme-4 .cm-s-tomorrow-night span.cm-operator {
+  .theme-4 span.cm-operator {
     color: #7c7c7c; }
 
 .theme-5 {
   background: #2C2A2D; }
-  .theme-5 .cm-s-tomorrow-night {
+  .theme-5 .cm-s-tomorrow-night, .theme-5 .rdmd-code {
     color: #c3c6c4; }
-  .theme-5 .cm-s-tomorrow-night span.cm-comment {
+  .theme-5 span.cm-comment {
     color: #969696; }
-  .theme-5 .cm-s-tomorrow-night span.cm-atom {
+  .theme-5 span.cm-atom {
     color: #c678dd; }
-  .theme-5 .cm-s-tomorrow-night span.cm-number,
-  .theme-5 .cm-s-tomorrow-night span.cm-attribute {
+  .theme-5 span.cm-number,
+  .theme-5 span.cm-attribute {
     color: #EE9B70; }
-  .theme-5 .cm-s-tomorrow-night span.cm-keyword {
+  .theme-5 span.cm-keyword {
     color: #ED6C88; }
-  .theme-5 .cm-s-tomorrow-night span.cm-string {
+  .theme-5 span.cm-string {
     color: #98c379; }
-  .theme-5 .cm-s-tomorrow-night span.cm-meta {
+  .theme-5 span.cm-meta {
     color: #56b6c2; }
-  .theme-5 .cm-s-tomorrow-night span.cm-tag {
+  .theme-5 span.cm-tag {
     color: #e5c07b; }
-  .theme-5 .cm-s-tomorrow-night span.cm-def {
+  .theme-5 span.cm-def {
     color: #61afef; }
-  .theme-5 .cm-s-tomorrow-night span.cm-variable {
+  .theme-5 span.cm-variable {
     color: #F9D778; }
-  .theme-5 .cm-s-tomorrow-night span.cm-bracket {
+  .theme-5 span.cm-bracket {
     color: #808080; }
-  .theme-5 .cm-s-tomorrow-night span.cm-builtin {
+  .theme-5 span.cm-builtin {
     color: #e06c75; }
-  .theme-5 .cm-s-tomorrow-night span.cm-operator {
+  .theme-5 span.cm-operator {
     color: #7c7c7c; }
 
 .theme-6 {
   background: #041717; }
-  .theme-6 .cm-s-tomorrow-night {
+  .theme-6 .cm-s-tomorrow-night, .theme-6 .rdmd-code {
     color: #c3c6c4; }
-  .theme-6 .cm-s-tomorrow-night span.cm-comment {
+  .theme-6 span.cm-comment {
     color: #969696; }
-  .theme-6 .cm-s-tomorrow-night span.cm-atom {
+  .theme-6 span.cm-atom {
     color: #C296E9; }
-  .theme-6 .cm-s-tomorrow-night span.cm-number,
-  .theme-6 .cm-s-tomorrow-night span.cm-attribute {
+  .theme-6 span.cm-number,
+  .theme-6 span.cm-attribute {
     color: #FFBE5C; }
-  .theme-6 .cm-s-tomorrow-night span.cm-keyword {
+  .theme-6 span.cm-keyword {
     color: #DD836E; }
-  .theme-6 .cm-s-tomorrow-night span.cm-string {
+  .theme-6 span.cm-string {
     color: #52C4FF; }
-  .theme-6 .cm-s-tomorrow-night span.cm-meta {
+  .theme-6 span.cm-meta {
     color: #7993D9; }
-  .theme-6 .cm-s-tomorrow-night span.cm-variable {
+  .theme-6 span.cm-variable {
     color: #FFBE5C; }
-  .theme-6 .cm-s-tomorrow-night span.cm-tag {
+  .theme-6 span.cm-tag {
     color: #FFBE5C; }
-  .theme-6 .cm-s-tomorrow-night span.cm-def {
+  .theme-6 span.cm-def {
     color: #FFBE5C; }
-  .theme-6 .cm-s-tomorrow-night span.cm-bracket {
+  .theme-6 span.cm-bracket {
     color: #808080; }
-  .theme-6 .cm-s-tomorrow-night span.cm-builtin {
+  .theme-6 span.cm-builtin {
     color: #80a1bc; }
-  .theme-6 .cm-s-tomorrow-night span.cm-operator {
+  .theme-6 span.cm-operator {
     color: #7c7c7c; }
 
 body, html {

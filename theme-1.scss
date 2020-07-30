@@ -17,56 +17,56 @@ $theme1-builtin:#80a1bc;
 .theme-1 {
   background: $theme1-bg;
 
-.cm-s-tomorrow-night {
+.cm-s-tomorrow-night, .rdmd-code {
 	color: $theme1-primary;
 }
 
-.cm-s-tomorrow-night span.cm-comment {
+span.cm-comment {
 	color: $theme1-comment;
 }
 
-.cm-s-tomorrow-night span.cm-atom {
+span.cm-atom {
 	color: $theme1-atom
 }
 
-.cm-s-tomorrow-night span.cm-number,
-.cm-s-tomorrow-night span.cm-attribute {
+span.cm-number,
+span.cm-attribute {
 	color: $theme1-number
 }
 
-.cm-s-tomorrow-night span.cm-keyword {
+span.cm-keyword {
 	color: $theme1-keyword;
 }
 
-.cm-s-tomorrow-night span.cm-string {
+span.cm-string {
 	color: $theme1-string;
 }
 
-.cm-s-tomorrow-night span.cm-meta {
+span.cm-meta {
 	color: $theme1-meta;
 }
 
-.cm-s-tomorrow-night span.cm-tag {
+span.cm-tag {
 	color: $theme1-tag;
 }
 
-.cm-s-tomorrow-night span.cm-def {
+span.cm-def {
 	color: $theme1-def;
 }
 
-.cm-s-tomorrow-night span.cm-variable {
+span.cm-variable {
 	color: $theme1-var;
 }
 
-.cm-s-tomorrow-night span.cm-bracket {
+span.cm-bracket {
 	color: $theme1-bracket;
 }
 
-.cm-s-tomorrow-night span.cm-builtin,{
+span.cm-builtin,{
 	color: $theme1-builtin;
 }
 
-.cm-s-tomorrow-night span.cm-operator {
+span.cm-operator {
 	color: $theme1-operator;
 }
 
